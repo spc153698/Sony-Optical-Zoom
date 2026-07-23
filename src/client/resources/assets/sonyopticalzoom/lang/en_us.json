@@ -1,0 +1,11 @@
+{
+  "key.sonyopticalzoom.zoom": "Sony Style Optical Zoom",
+  "key.sonyopticalzoom.lock": "Zoom Lock Toggle",
+  "key.sonyopticalzoom.preset1": "Zoom Preset 1",
+  "key.sonyopticalzoom.preset2": "Zoom Preset 2",
+  "key.sonyopticalzoom.preset3": "Zoom Preset 3",
+  "key.sonyopticalzoom.screenshot": "Take Screenshot",
+  "key.sonyopticalzoom.maxzoomup": "Increase Max Zoom",
+  "key.sonyopticalzoom.maxzoomdown": "Decrease Max Zoom",
+  "category.sonyopticalzoom": "Sony Style Optical Zoom"
+}
