@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "sonyopticalzoom",
+	"version": "${version}",
+	"name": "Sony OpticalZoom",
+	"description": "基于fabric的1.21.1版本的索尼风味变焦放大模组，拥有索尼变焦时候的“W——T变焦条”，按下v可以触发",
+	"authors": [
+		"哈基积"
+	],
+	"contact": {
+		"homepage": "https://space.bilibili.com/1777787531?spm_id_from=333.1007.0.0",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sonyopticalzoom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hajijisonyopticalzoom.SonyOpticalZoom"
+		],
+		"client": [
+			"hajijisonyopticalzoom.client.SonyOpticalZoomClient"
+		],
+		"fabric-datagen": [
+			"hajijisonyopticalzoom.client.SonyOpticalZoomDataGenerator"
+		]
+	},
+	"mixins": [
+		"sonyopticalzoom.mixins.json",
+		{
+			"config": "sonyopticalzoom.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
