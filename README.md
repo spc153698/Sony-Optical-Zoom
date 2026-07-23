@@ -1,2 +1,9 @@
-# Sony-Optical-Zoom
-索尼风味光学变焦放大，嗯对就是这样，当你按下指定的按键（可指派）就可以放大视角，用鼠标滚轮可以调节放大倍率，除此之外，在您的屏幕左边会有一个变焦倍率进度条，嗯对就像索尼一样，非常的OK😋
+# Sony OpticalZoom
+
+## Setup
+
+For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+
+## License
+
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
